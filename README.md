@@ -1,29 +1,29 @@
 # Improving Small-Defect Detection in YOLOv12 through High-Resolution Attention and Small-Object Loss
 
-**Course:** MCTA 4364 Machine Vision (Semester 1, 2026/2027) 
+**Course:** MCTA 4364 — Machine Vision (Semester 1, 2026/2027)  
+**Track:** Track 2 — Research Paper Extension  
+**Base Paper:** Tian, Y., Ye, Q., & Doermann, D. (2025). *YOLOv12: Attention-Centric Real-Time Object Detectors*. arXiv:2502.12524v1 ([Official Repository](https://github.com/sunsmarterjie/yolov12))  
+**Dataset:** Northeastern University Surface Defect Database (NEU-DET, CC BY 4.0)
 
-**Institution:** Kulliyyah of Engineering, International Islamic University Malaysia (IIUM) 
-
-**Project Track:** Research Paper Extension
+---
 
 ## Group Members
-| Name | Matric Number |
-| :--- | :--- |
-| Mohd Nafiz Zuhairee bin Mohd Neezar | 2317423 |
-| Wan Syazmie Akmal bin Wan Saad | 2316957 |
-| Muhammad Aiman bin Safawi | 2318249 |
+| Name | Matric No. | Role & Contributions |
+| :--- | :---: | :--- |
+| **Mohd Nafiz Zuhairee Bin Mohd Neezar** | `2317423` | Environment setup, model training pipeline, baseline evaluation, architectural extension design |
+| **Wan Syazmie Akmal bin Wan Saad** | `2316957` | Dataset curation, exploratory data analysis (EDA), literature synthesis, report documentation |
+| **Muhammad Aiman bin Safawi** | `2318249` | Qualitative error analysis, baseline validation verification, hyperparameter & metrics logging |
 
-## Reference Paper & Official Repository
-* **Base Paper:** *YOLOv12: Attention-Centric Real-Time Object Detectors* (2025) — [arXiv PDF](https://arxiv.org/pdf/2502.12524)
-* **Official GitHub Repository:** [https://github.com/sunsmarterjie/yolov12](https://github.com/sunsmarterjie/yolov12)
 ---
 
 ## Repository Structure
 ```text
-├── configs/                # Custom YAML model & dataset configurations
-├── datasets/               # Dataset split scripts and metadata (raw images excluded)
-├── scripts/                # Exploratory Data Analysis (EDA), validation, and training scripts
-├── results/                # Baseline evaluation logs, metrics, and qualitative plots
-├── yolov12/                # Core YOLOv12 codebase adapted from sunsmarterjie/yolov12
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation and setup guide
+MCTA4364-YOLOv12-SmallDefect/
+├── configs/
+│   └── defect_data.yaml          # NEU-DET dataset paths and 6 class definitions
+├── scripts/
+│   └── eda_dataset.py            # Exploratory data analysis and bounding-box scale profiling
+├── results/
+│   ├── eda/                      # Class distribution and bounding-box dimension plots
+│   └── baseline/                 # Training curves, confusion matrix, and validation/test CSV logs
+└── README.md
