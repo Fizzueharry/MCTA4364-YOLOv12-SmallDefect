@@ -1,7 +1,9 @@
 # Improving Small-Defect Detection in YOLOv12 through High-Resolution Attention and Small-Object Loss
 
 **Course:** MCTA 4364 Machine Vision (Semester 1, 2026/2027) 
+
 **Institution:** Kulliyyah of Engineering, International Islamic University Malaysia (IIUM) 
+
 **Project Track:** Research Paper Extension
 
 ## Group Members
