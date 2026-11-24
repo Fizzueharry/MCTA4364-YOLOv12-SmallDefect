@@ -221,3 +221,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+weights/ 
+datasets/ 
+runs/ 
+*.pt 
+requirements_win.txt
