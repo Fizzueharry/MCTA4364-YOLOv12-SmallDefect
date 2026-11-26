@@ -27,3 +27,12 @@ MCTA4364-YOLOv12-SmallDefect/
 │   ├── eda/                      # Class distribution and bounding-box dimension plots
 │   └── baseline/                 # Training curves, confusion matrix, and validation/test CSV logs
 └── README.md
+---
+
+## Environment Setup
+1. **Create and activate Conda environment (Python 3.10 + PyTorch CUDA 11.8):**
+   ```bash
+   conda create -p D:\conda_envs\yolov12_mv python=3.10 -y
+   conda activate D:\conda_envs\yolov12_mv
+   pip install torch==2.2.2 torchvision==0.17.2 --index-url https://download.pytorch.org/whl/cu118
+   pip install ultralytics==8.3.63 thop seaborn pandas pyyaml
