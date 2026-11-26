@@ -7,7 +7,7 @@
 
 ---
 
-## Group Members
+## Group Member
 | Name | Matric No. | Role & Contributions |
 | :--- | :---: | :--- |
 | **Mohd Nafiz Zuhairee Bin Mohd Neezar** | `2317423` | Environment setup, model training pipeline, baseline evaluation, architectural extension design |
